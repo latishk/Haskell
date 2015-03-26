@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 LucidaGrande;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240
+
+\f0\fs30 \cf0 \expnd0\expndtw0\kerning0
+Latish Khubnani\uc0\u8232 274, Crittenden Way, Apt. No.2,\u8232 Rochester, NY, 14623 
+\f1\fs24 \expnd0\expndtw0\kerning0
+\
+
+\f0\fs30 \expnd0\expndtw0\kerning0
+Dear Selection Committee, 
+\f1\fs24 \expnd0\expndtw0\kerning0
+\
+
+\f0\fs30 \expnd0\expndtw0\kerning0
+This letter is in regards to my interest in applying for the position recently posted on your website\'92s careers section. During my studies at R.I.T, I have had the opportunity to strengthen my skills in programming, specially in JAVA and C++. I am open to learning new things in programming and software development prior to my internship to gain the necessary skills. In the classroom I have committed myself to academic excellence which can be reflected by my grades. In my Undergraduate term I have worked with HTML5 and CSS on front end. I have had good exposure in team based work environments as I had served as Creative Head for my colleges\'92 Student Council in undergraduate years, where I supervised the design of logos material for different college festivals, at the same time working as a part of bigger team. This has helped connect me to students of different backgrounds and function as an comprehensive group. 
+\f2 \expnd0\expndtw0\kerning0
+\uc0\u8232  
+\f1\fs24 \expnd0\expndtw0\kerning0
+\
+
+\f0\fs30 \expnd0\expndtw0\kerning0
+I have attached my resume detailing academic knowledge and technical skill. I appreciate the opportunity to discuss this position with you and provide you with further information. 
+\f1\fs24 \expnd0\expndtw0\kerning0
+\
+
+\f0\fs30 \expnd0\expndtw0\kerning0
+Your time is greatly appreciated. \
+Latish Khubnani 
+\f1\fs24 \expnd0\expndtw0\kerning0
+\
+}

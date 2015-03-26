@@ -90,3 +90,9 @@ fromPeano Zero = meaning Zero id 0
 fromPeano (S a) = meaning Zero id (fromPeano a) + 1
 
 --fromPeano (S (S Zero))
+
+
+getColumn :: Int -> [Int]
+getColumn y = getPossibleCells y 0
+				where getPossibleCells _ 9 = []
+				  	  getPossibleCells y index = y : (getPossibleCells (y + 9) (index +1))
