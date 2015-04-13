@@ -1,0 +1,228 @@
+Last login: Thu Mar  5 15:38:23 on ttys001
+luke:~ latish$ ssh lhk3416@glados.cs.rit.edu
+Password: 
+Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.2.0-77-generic-pae i686)
+
+ * Documentation:  https://help.ubuntu.com/
+-------------------------------------------------------------------------------
+                     Rochester Institute of Technology
+                      Department of Computer Science
+
+                             - REMINDER -
+
+Use of this computer system is governed by the Code of Conduct for Use of DCS
+Facilities; by continuing to use this system, you hereby agree to abide by
+its terms.  Read the file /usr/local/pub/doc/CodeOfConduct.txt for details.
+
+General Systems status can be found here:
+http://www.cs.rit.edu/resources/computing/status
+
+Any questions can be directed to problems@cs.rit.edu
+
+nethack (unnethack-3.5.2) has been installed. You're welcome.
+
+Feb 24 2015
+    The Ubuntu lab machines (and glados and queeg) will be patched and rebooted
+    early on Thursday (2/26).
+
+
+                              Don't Panic
+
+--------------------------------------------------------------------------------
+
+  System information as of Thu Mar  5 16:25:52 EST 2015
+
+  System load:  0.21               Processes:           413
+  Usage of /:   8.8% of 239.18GB   Users logged in:     16
+  Memory usage: 1%                 IP address for eth0: 129.21.30.38
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+31 packages can be updated.
+29 updates are security updates.
+
+New release '14.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+
+Last login: Thu Mar  5 15:38:42 2015 from cpe-24-93-17-216.rochester.res.rr.com
+lhk3416@glados:~$ d Documents/Haskell/ls  
+d: command not found
+lhk3416@glados:~$ cd Documents/Haskell/ls
+-bash: cd: Documents/Haskell/ls: No such file or directory
+lhk3416@glados:~$ cd Documents/Haskell/  
+lhk3416@glados:~/Documents/Haskell$ ls
+assign1  assign2
+lhk3416@glados:~/Documents/Haskell$ cd assign2
+lhk3416@glados:~/Documents/Haskell/assign2$ ghci
+GHCi, version 7.4.1: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :load Assign2.hs
+[1 of 1] Compiling Main             ( Assign2.hs, interpreted )
+
+Assign2.hs:69:1: Parse error: naked expression at top level
+Failed, modules loaded: none.
+Prelude> cd
+
+<interactive>:3:1:
+    Not in scope: `cd'
+    Perhaps you meant one of these:
+      `id' (imported from Prelude), `gcd' (imported from Prelude)
+Prelude> exit
+
+<interactive>:4:1: Not in scope: `exit'
+Prelude> exit
+
+<interactive>:5:1: Not in scope: `exit'
+Prelude> :q
+Leaving GHCi.
+lhk3416@glados:~/Documents/Haskell/assign2$ exit
+logout
+Connection to glados.cs.rit.edu closed.
+luke:~ latish$ cd Desktop/
+luke:Desktop latish$ ghci
+GHCi, version 7.8.3: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :load Assign2.hs
+[1 of 1] Compiling Main             ( Assign2.hs, interpreted )
+
+Assign2.hs:69:1:
+    Parse error: naked expression at top level
+    Perhaps you intended to use TemplateHaskell
+Failed, modules loaded: none.
+Prelude> :load Assign2.hs
+[1 of 1] Compiling Main             ( Assign2.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> :q
+Leaving GHCi.
+luke:Desktop latish$ cd
+luke:~ latish$ cd Documents/Haskell
+luke:Haskell latish$ l
+-bash: l: command not found
+luke:Haskell latish$ ls
+HHW1			HHW2			siggraph_talk_DRAPE.pdf
+luke:Haskell latish$ cd HHW2
+luke:HHW2 latish$ ls
+Assign2.2.hs
+Assign2.hs
+Screen Shot 2015-01-01 at 3.14.52 AM.pdf
+Solver.hs
+luke:HHW2 latish$ ghci
+GHCi, version 7.8.3: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :load Assign2.hs
+[1 of 1] Compiling Main             ( Assign2.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> ssh l
+last                  lex                   log
+last                  lines                 logBase
+lcm                   lines                 lookup
+length                listExample           lookup
+length                listFromSudokuConfig
+*Main> :q
+Leaving GHCi.
+luke:HHW2 latish$ ssh lhk3416@glados.cs.rit.edu
+Password: 
+Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.2.0-77-generic-pae i686)
+
+ * Documentation:  https://help.ubuntu.com/
+-------------------------------------------------------------------------------
+                     Rochester Institute of Technology
+                      Department of Computer Science
+
+                             - REMINDER -
+
+Use of this computer system is governed by the Code of Conduct for Use of DCS
+Facilities; by continuing to use this system, you hereby agree to abide by
+its terms.  Read the file /usr/local/pub/doc/CodeOfConduct.txt for details.
+
+General Systems status can be found here:
+http://www.cs.rit.edu/resources/computing/status
+
+Any questions can be directed to problems@cs.rit.edu
+
+nethack (unnethack-3.5.2) has been installed. You're welcome.
+
+Feb 24 2015
+    The Ubuntu lab machines (and glados and queeg) will be patched and rebooted
+    early on Thursday (2/26).
+
+
+                              Don't Panic
+
+--------------------------------------------------------------------------------
+
+  System information as of Thu Mar  5 16:34:10 EST 2015
+
+  System load:  0.07               Processes:           415
+  Usage of /:   8.8% of 239.18GB   Users logged in:     15
+  Memory usage: 1%                 IP address for eth0: 129.21.30.38
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+31 packages can be updated.
+29 updates are security updates.
+
+New release '14.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+
+Last login: Thu Mar  5 16:25:53 2015 from cpe-24-93-17-216.rochester.res.rr.com
+lhk3416@glados:~$ cd Documents/Haskell/
+lhk3416@glados:~/Documents/Haskell$ ls
+assign1  assign2
+lhk3416@glados:~/Documents/Haskell$ submit -v anh-grd fun-assign2 assign2
+assign2/
+assign2/Assign2.hs
+lhk3416@glados:~/Documents/Haskell$ ghci
+GHCi, version 7.4.1: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :q
+Leaving GHCi.
+lhk3416@glados:~/Documents/Haskell$ cd assign2
+lhk3416@glados:~/Documents/Haskell/assign2$ ghci
+GHCi, version 7.4.1: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :load Assign2.hs 
+[1 of 1] Compiling Main             ( Assign2.hs, interpreted )
+Ok, modules loaded: Main.
+*Main> sudokuSolve (sudokuConfigFromList  trivial)
+Just 
+  1 4 6   3 2 5   8 9 7 
+  8 7 2   4 6 9   3 1 5 
+  5 3 9   7 8 1   2 4 6 
+
+  2 1 3   9 7 8   6 5 4 
+  9 5 4   6 1 3   7 8 2 
+  7 6 8   5 4 2   1 3 9 
+
+  4 8 1   2 5 7   9 6 3 
+  3 2 5   1 9 6   4 7 8 
+  6 9 7   8 3 4   5 2 1 
+
+*Main> satSolve (Or (Not (Var "a")) (And (Not (Var "b")) (Var "c")))
+Just [("c",True),("b",False),("a",True)]
+*Main> :q
+Leaving GHCi.
+lhk3416@glados:~/Documents/Haskell/assign2$ cksubmit anh-grd fun-assignN
+** Fatal error: `anh-grd' has no assignment `fun-assignN'!
+lhk3416@glados:~/Documents/Haskell/assign2$ cksubmit anh-grd fun-assign2
+assign2/
+assign2/Assign2.hs
+lhk3416@glados:~/Documents/Haskell/assign2$ 
